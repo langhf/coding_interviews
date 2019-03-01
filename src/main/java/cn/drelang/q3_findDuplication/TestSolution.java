@@ -1,4 +1,4 @@
-package cn.drelang.q2_findDuplication;
+package cn.drelang.q3_findDuplication;
 
 import org.junit.Assert;
 import org.junit.Test;

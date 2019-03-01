@@ -1,4 +1,4 @@
-package cn.drelang.q2_findDuplication;
+package cn.drelang.q3_findDuplication;
 
 /**
  * 题目： 找出数组中重复的数字
