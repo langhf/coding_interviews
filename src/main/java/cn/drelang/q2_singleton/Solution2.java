@@ -1,4 +1,4 @@
-package cn.drelang.q1_singleton;
+package cn.drelang.q2_singleton;
 
 /**
  * 饿汉式单例模式，线程安全

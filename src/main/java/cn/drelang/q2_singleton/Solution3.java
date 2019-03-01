@@ -1,4 +1,4 @@
-package cn.drelang.q1_singleton;
+package cn.drelang.q2_singleton;
 
 /**
  * 枚举方式，线程安全

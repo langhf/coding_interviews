@@ -1,4 +1,4 @@
-package cn.drelang.q1_singleton;
+package cn.drelang.q2_singleton;
 
 import org.junit.Assert;
 import org.junit.Test;
