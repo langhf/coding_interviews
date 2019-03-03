@@ -1,4 +1,4 @@
-package cn.drelang.q7_reConstructBinaryTree;
+package cn.drelang.q07_reConstructBinaryTree;
 
 /**
  * Created by Drelang on 2019/03/02 21:22

@@ -1,4 +1,4 @@
-package cn.drelang.q2_singleton;
+package cn.drelang.q02_singleton;
 
 /**
  *  懒汉式，线程安全

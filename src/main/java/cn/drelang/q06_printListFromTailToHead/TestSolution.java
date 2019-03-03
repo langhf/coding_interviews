@@ -1,4 +1,4 @@
-package cn.drelang.q6_printListFromTailToHead;
+package cn.drelang.q06_printListFromTailToHead;
 
 import org.junit.Test;
 

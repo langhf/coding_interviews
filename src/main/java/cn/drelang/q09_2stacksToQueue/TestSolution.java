@@ -1,4 +1,4 @@
-package cn.drelang.q9_2stacksToQueue;
+package cn.drelang.q09_2stacksToQueue;
 
 import org.junit.Assert;
 import org.junit.Test;

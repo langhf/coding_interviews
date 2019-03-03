@@ -1,4 +1,4 @@
-package cn.drelang.q5_replaceSpace;
+package cn.drelang.q05_replaceSpace;
 
 /**
  * 问题:

@@ -1,4 +1,4 @@
-package cn.drelang.q7_reConstructBinaryTree;
+package cn.drelang.q07_reConstructBinaryTree;
 
 import org.junit.Test;
 

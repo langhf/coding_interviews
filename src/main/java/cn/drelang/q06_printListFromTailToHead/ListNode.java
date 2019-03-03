@@ -1,4 +1,4 @@
-package cn.drelang.q6_printListFromTailToHead;
+package cn.drelang.q06_printListFromTailToHead;
 
 /**
  * Created by Drelang on 2019/03/02 18:36

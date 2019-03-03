@@ -1,4 +1,4 @@
-package cn.drelang.q5_replaceSpace;
+package cn.drelang.q05_replaceSpace;
 
 import org.junit.Assert;
 import org.junit.Test;

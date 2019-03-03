@@ -1,6 +1,4 @@
-package cn.drelang.q7_reConstructBinaryTree;
-
-import sun.reflect.generics.tree.Tree;
+package cn.drelang.q07_reConstructBinaryTree;
 
 /**
  * 问题:
