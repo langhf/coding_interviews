@@ -10,4 +10,5 @@ public class TestSolution {
     public void test() {}
     Solution solution = new Solution();
     TreeNode root1 = new TreeNode(8);
+
 }
