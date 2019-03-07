@@ -24,7 +24,7 @@ class Solution {
         return result;
     }
 
-    boolean doesTree1HasTree2(TreeNode root1, TreeNode root2) {
+    private boolean doesTree1HasTree2(TreeNode root1, TreeNode root2) {
         if (root2 == null) return true;
         if (root1 == null) return false;
         if (root1.val == root2.val) {
