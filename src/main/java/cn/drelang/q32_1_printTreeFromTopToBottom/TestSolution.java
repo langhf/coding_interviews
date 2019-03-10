@@ -1,4 +1,4 @@
-package cn.drelang.q32_printTreeFromTopToBottom;
+package cn.drelang.q32_1_printTreeFromTopToBottom;
 
 import org.junit.Assert;
 import org.junit.Test;
