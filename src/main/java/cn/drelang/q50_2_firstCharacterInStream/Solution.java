@@ -8,11 +8,11 @@ package cn.drelang.q50_2_firstCharacterInStream;
  *
  * Created by Drelang on 2019/03/22 09:03
  */
-public class Solution {
+class Solution {
     private final int[] count = new int[256];
     private int index = 1;
     //Insert one char from stringstream
-    public void Insert(char ch) {
+    void Insert(char ch) {
         if (count[ch] == 0) {
             count[ch] = index++;
         }
@@ -21,7 +21,7 @@ public class Solution {
         }
     }
     //return the first appearence once char in current stringstream
-    public char FirstAppearingOnce() {
+    char FirstAppearingOnce() {
         int temp = Integer.MAX_VALUE;
         char ch = '#';
         for (int i=0; i<256; i++) {
