@@ -15,13 +15,55 @@ package cn.drelang.q53_1_numberOfK;
  */
 class Solution {
     int GetNumberOfK(int [] array , int k) {
-        if (array == null || array.length < 1)
+        if (array == null)
             return -1;
-        int count=0;
-        for (int i : array){
-            if(i == k)
-                count++;
+        int i = getFirstK(array, k, 0, array.length - 1);
+        int j = getLastK(array, k, 0, array.length - 1);
+        if (i != -1 && j != -1) {
+            return j - i +1;
         }
-        return count;
+        return 0;
+    }
+
+    private int getFirstK(int[] array, int k, int start, int end) {
+        if (start > end)
+            return -1;
+        int mid = (start+end)>>1;
+        if (array[mid] > k) {
+            end = mid -1;
+            return getFirstK(array, k, start, end);
+        }
+        else if (array[mid] < k) {
+            start = mid + 1;
+            return getFirstK(array, k, start, end);
+        }
+        else if (mid -1 >= 0 && array[mid-1] == k) {
+            end = mid-1;
+            return getFirstK(array, k, start, end);
+        }
+        else {
+            return mid;
+        }
+    }
+
+    private int getLastK(int[] array, int k, int start, int end) {
+        if (start > end)
+            return -1;
+        int mid = (start+end)>>1;
+        if (array[mid] > k) {
+            end = mid -1;
+            return getLastK(array, k, start, end);
+        }
+        else if (array[mid] < k) {
+            start = mid + 1;
+            return getLastK(array, k, start, end);
+        }
+        else if (mid+1 < array.length && array[mid+1] == k){
+            start = mid+1;
+            return getLastK(array, k, start, end);
+        }
+        else {
+            return mid;
+        }
     }
 }
