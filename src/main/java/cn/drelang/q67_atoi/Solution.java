@@ -12,10 +12,11 @@ package cn.drelang.q67_atoi;
  * Created by Drelang on 2019/03/31 12:45
  */
 class Solution {
+    boolean overflow;   //判断是否溢出
     int StrToInt(String str) {
         long sum = 0;
         int flag = 1;
-        boolean overflow = false;   // 判断是否溢出
+        overflow = false;   // 判断是否溢出
 
         for (int i=0; i<str.length(); i++) {
             char ch = str.charAt(i);
